@@ -7,19 +7,20 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <script>
-function openContactPopup() {
-    const width = 500;
-    const height = 400;
-    const left = (window.innerWidth - width) / 2;
-    const top = (window.innerHeight - height) / 2;
+    function openContactPopup() {
+        const width = 500;
+        const height = 400;
+        const left = (window.innerWidth - width) / 2;
+        const top = (window.innerHeight - height) / 2;
 
-    window.open(
-        "./public/contact.html",
-        "ContactWindow",
-        `width=${width},height=${height},left=${left},top=${top},resizable=no`
-    );
-}
+        window.open(
+            "./public/contact.html",
+            "ContactWindow",
+            `width=${width},height=${height},left=${left},top=${top},resizable=no`
+        );
+    }
 </script>
+
 <body>
     <h1>Minsoo Kang</h1>
     <img src="./assets/images/증명사진.jpg" alt="Minsoo Kang Profile Picture" height="120" />
@@ -74,6 +75,10 @@ function openContactPopup() {
 
     <h2>Experience & Activities</h2>
     <ul>
+        <li><strong>Republic of Korea Marine Corps</strong> – Infantry Sergeant (Discharged)
+            <br />- Completed full military service with honor (병장 만기전역 22.02.28 ~ 23.08.24)
+            <br />- Gained leadership, resilience, and team coordination experience
+        </li>
         <li><strong>MaryHand Inc.</strong> – Virtual MRI Simulation Intern (July–August 2025)
             <br />- Developed and evaluated a physics-based MRI simulator
             <br />- Worked with Julia, KomaMRI, and anatomical 3D phantom data
@@ -82,6 +87,7 @@ function openContactPopup() {
         <li>Scratch-based coding instructor for elementary students</li>
         <li>C language mentoring in university club</li>
         <li>SW Competition participation</li>
+
     </ul>
 
     <h2>Contact</h2>
@@ -96,5 +102,3 @@ function openContactPopup() {
 
 
 </html>
-
-
