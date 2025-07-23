@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Minsoo Kang's Resume</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<script>
+function openContactPopup() {
+    const width = 500;
+    const height = 400;
+    const left = (window.innerWidth - width) / 2;
+    const top = (window.innerHeight - height) / 2;
+
+    window.open(
+        "./public/contact.html",
+        "ContactWindow",
+        `width=${width},height=${height},left=${left},top=${top},resizable=no`
+    );
+}
+</script>
+<body>
+    <h1>Minsoo Kang</h1>
+    <img src="./assets/images/증명사진.jpg" alt="Minsoo Kang Profile Picture" height="120" />
+
+    <h2>Summary</h2>
+    <p>I am a third-year student majoring in Computer Information and Communication Engineering at Chonnam National
+        University, with strong interests in AI, Computer Vision, and Embedded Systems. I am passionate about real-world
+        problem-solving through smart systems and collaborative innovation.</p>
+
+    <hr />
+
+    <h2>Education</h2>
+    <ul>
+        <li><strong>Chonnam National University</strong> – B.S. in Computer Information and Communication Engineering
+            (2019–2026)</li>
+        <li>Gwangju Inseong High School – Graduated</li>
+        <li>Songwon Middle School – Graduated</li>
+        <li>Majae Elementary School – Graduated</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ul>
+        <li><strong>Smart Window Control System</strong> (Arduino, C, Bluetooth)
+            <br />- Rain/Gas/Light sensor input, stepper motor control, mobile app integration
+        </li>
+        <li><strong>Gesture-based Presentation Controller</strong> (OpenCV, Mediapipe, Python)
+            <br />- Real-time gesture detection to control slides
+        </li>
+        <li><strong>Virtual MRI Simulation (Internship)</strong> – MaryHand Inc. (Summer 2025)
+            <br />- Worked on CPU-based Bloch simulation using Julia
+            <br />- Focused on phantom and sequence data handling, 2D/3D FEM modeling, and simulation GUI
+        </li>
+    </ul>
+
+    <h2>Skills</h2>
+    <ul class="skills">
+        <li><span>C</span><span class="stars">★★★☆☆</span></li>
+        <li><span>C++</span><span class="stars">★★★★★</span></li>
+        <li><span>Python</span><span class="stars">★★★★☆</span></li>
+        <li><span>HTML/CSS/JS</span><span class="stars">★★★★☆</span></li>
+        <li><span>Linux</span><span class="stars">★★★★☆</span></li>
+        <li><span>Arduino IDE</span><span class="stars">★★★★★</span></li>
+    </ul>
+
+    <h2>Certifications</h2>
+    <ol>
+        <li>AI-900 (Microsoft Certified AI Fundamentals)</li>
+        <li>SC-900 (Microsoft Security, Compliance, and Identity)</li>
+        <li>PCCE (Python, C++)</li>
+        <li>SQLD Developer</li>
+    </ol>
+
+    <h2>Experience & Activities</h2>
+    <ul>
+        <li><strong>MaryHand Inc.</strong> – Virtual MRI Simulation Intern (July–August 2025)
+            <br />- Developed and evaluated a physics-based MRI simulator
+            <br />- Worked with Julia, KomaMRI, and anatomical 3D phantom data
+        </li>
+        <li><strong>OrderNow</strong> – Patent Education Startup Intern</li>
+        <li>Scratch-based coding instructor for elementary students</li>
+        <li>C language mentoring in university club</li>
+        <li>SW Competition participation</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <div class="contact-box">
+        <p><a href="#" onclick="openContactPopup()">Contact Me</a></p>
+    </div>
+
+    <footer>
+        <p>© 2025 Minsoo Kang</p>
+    </footer>
+</body>
+
+
+</html>
+
+
